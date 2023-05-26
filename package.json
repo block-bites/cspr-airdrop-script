@@ -1,0 +1,29 @@
+{
+  "name": "cspr-airdrop-script",
+  "author": "",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node ./index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/block-bites/cspr-airdrop-script.git"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/block-bites/cspr-airdrop-script/issues"
+  },
+  "homepage": "https://github.com/block-bites/cspr-airdrop-script#readme",
+  "dependencies": {
+    "casper-js-sdk": "2.13.0",
+    "minimist": "^1.2.8",
+    "ts-node": "^10.9.1"
+  },
+  "devDependencies": {
+    "@types/minimist": "^1.2.2"
+  }
+}
